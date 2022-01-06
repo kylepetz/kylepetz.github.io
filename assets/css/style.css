@@ -28,6 +28,18 @@ body {
     text-align: center;
     text-decoration: none;
 }
+#userTitle {
+    color: rgb(99, 99, 99);
+    font-size: 0.9rem;
+    font-weight: 600;
+	font-style: italic;
+    line-height: 1.25;
+    display: block;
+    font-family: var(--font);
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
 
 #links {
     max-width: 675px;
