@@ -1959,6 +1959,9 @@
 .fa-chrome:before {
   content: "\f268";
 }
+.fa-mastodon:before {
+  content: "\f4f6";
+}
 .fa-firefox:before {
   content: "\f269";
 }
