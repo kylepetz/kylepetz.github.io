@@ -4,6 +4,10 @@ Single-page site that answers one question.
 
 **To update:** edit `FIRED` and `LAST_CHECKED` near the bottom of `index.html`.
 
+**Share image:** `og.png` (1200×630). It says "NO." — swap it if `FIRED` flips.
+
+**When moving to isryandayfired.com:** change the `og:url`, `og:image` and `twitter:image` URLs in `index.html` to `https://isryandayfired.com/...`.
+
 ## Deploy (GitHub Pages)
 1. Create a new repo (e.g. `isryandayfired`) and copy `index.html` + `CNAME` to its root.
 2. Repo **Settings → Pages**: deploy from `main` branch, root.
