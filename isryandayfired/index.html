@@ -57,6 +57,15 @@
       color: var(--gray);
       max-width: 32rem;
     }
+    .snark {
+      margin-top: 1rem;
+      font-size: clamp(1rem, 2.5vw, 1.25rem);
+      font-style: italic;
+      font-weight: 700;
+      color: var(--ink);
+    }
+    .snark span { background: var(--scarlet); padding: 0 .3em; }
+    body.fired .snark { display: none; }
     footer {
       position: fixed;
       bottom: 16px;
@@ -69,12 +78,13 @@
   <h1>Is Ryan Day fired?</h1>
   <p class="answer" id="answer">NO.</p>
   <p class="detail" id="detail">He is still the head coach of Ohio State football.</p>
+  <p class="snark">He <span>definitely</span> should be, though.</p>
   <footer>Last checked <time id="checked"></time></footer>
 
   <script>
     // ── Update these two lines when the news changes ──
     const FIRED = false;
-    const LAST_CHECKED = "2026-11-08";
+    const LAST_CHECKED = "2026-11-21";
 
     if (FIRED) {
       document.body.classList.add("fired");
